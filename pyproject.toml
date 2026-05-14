@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "handwriting-synthesis"
+version = "1.0.0"
+description = "Handwriting synthesis — exposes a single generate() function"
+requires-python = ">=3.8"
+dependencies = [
+    "tensorflow[and-cuda]",
+    "tensorflow-probability",
+    "tf-keras",
+    "numpy",
+    "svgwrite",
+    "scipy",
+    "pandas",
+    "scikit-learn",
+    "matplotlib",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["handwriting_synthesis*"]
+
+[tool.setuptools.package-data]
+handwriting_synthesis = ["weights/*.npy", "styles/*.npy"]

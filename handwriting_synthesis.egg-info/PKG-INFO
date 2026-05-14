@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: handwriting-synthesis
+Version: 1.0.0
+Summary: Handwriting synthesis — exposes a single generate() function
+Requires-Python: >=3.8
+Requires-Dist: tensorflow[and-cuda]
+Requires-Dist: tensorflow-probability
+Requires-Dist: tf-keras
+Requires-Dist: numpy
+Requires-Dist: svgwrite
+Requires-Dist: scipy
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: matplotlib

@@ -1,0 +1,6 @@
+pyproject.toml
+src/handwriting_synthesis.egg-info/PKG-INFO
+src/handwriting_synthesis.egg-info/SOURCES.txt
+src/handwriting_synthesis.egg-info/dependency_links.txt
+src/handwriting_synthesis.egg-info/requires.txt
+src/handwriting_synthesis.egg-info/top_level.txt

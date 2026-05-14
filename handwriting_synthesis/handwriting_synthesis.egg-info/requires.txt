@@ -1,0 +1,9 @@
+tensorflow[and-cuda]
+tensorflow-probability
+tf-keras
+numpy
+svgwrite
+scipy
+pandas
+scikit-learn
+matplotlib
